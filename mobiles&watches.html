@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m&w stores</title>
+    <link rel="stylesheet" href="mobiles&watches.css">
+</head>
+<body>
+    <!--making header with 2 divs for image and navbar-->
+    <header>
+        <div id="header-img">
+            <h1>Nori Shop</h1>
+            <img src="company-logo.png" alt="">
+        </div>
+        <br>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#mobile">Mobiles</a></li>
+                <li><a href="">Watches</a></li>
+                <li><a href="#submit">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <!--giving mobile div for navbar connection-->
+    <div id="mobile">
+    <!--atteched the vedio of mobile in the vedio id-->
+    <video controls id="video">
+        <source src="vedio.mp4" type="video/mp4">
+    </video>
+            <marquee behavior="slides" style="font-size: 22px;font-weight: 600;font-style: italic;">Oppo is the best camera mobile!</marquee>
+        </div>
+
+        <br><br><br>
+        <!--first image with text in the div el-->
+        <div class="el">
+            <img src="01.jpg" width="510" height="390">
+                 <p style="margin-left: 10%;margin-top: 12%; font-size: 26px; font-style: italic; color: rgb(109, 14, 14); font-weight: 700;">We deal all types of Electronics prodects!</p>
+            </div>
+
+        <br><br><hr><br>
+        <!--Making div tim for 4 rows images-->
+    <h2>Mobiles:</h2>
+    <div class="tim">
+        
+        <div class="im1">
+            <img src="02.jpg" width="220" height="200">
+            <div class="immt">
+            <p style="font-size: 13px; margin-left: 6px;font-style: oblique;font-weight: 700;">Samsung Galaxy S22
+            <button type="add to cart">Add to cart</button></p>
+            </div>
+        </div>
+    <!--second image with in same div-->
+    <div class="im1">
+        <img src="03.jpg" width="220" height="200">
+        <div class="immt">
+        <p style="font-size: 13px; margin-left: 4px;font-style: oblique;font-weight: 700;">Samsung Galaxy S22ultra
+        <button type="add to cart">Add to cart</button></p>
+        </div>
+    </div>
+    <!--3rd image with inthe same div-->
+    <div class="im1">
+        <img src="04.jpg" width="220" height="200">
+        <div class="immt">
+        <p style="font-size: 13px; margin-left: 4px;font-style: oblique;font-weight: 700;">Samsung Galaxy A53
+        <button type="add to cart">Add to cart</button></p>
+        </div>
+    </div>
+    <!--4rd image with inthe same div-->
+    <div class="im1">
+        <img src="05.jpg" width="220" height="200">
+        <div class="immt">
+        <p style="font-size: 13px; margin-left: 4px;font-style: oblique;font-weight: 700;">Samsung Galaxy A54
+        <button type="add to cart">Add to cart</button></p>
+        </div>
+    </div>
+
+    </div>
+    <br><br>
+    <!--another div for next row 3 images-->
+    <div class="tim">
+    <!--first image in other div tim-->
+        <div class="im2">
+            <img src="06.jpg" width="220" height="200">
+            <div class="immt2">
+                <p style="font-size: 13px; margin-left: 40px;font-style: oblique;font-weight: 700;">Huawei P30
+                <button type="add to cart">Add to cart</button></p>
+                </div>
+        </div>
+    <!--second image in the same div-->
+    <div class="im2">
+        <img src="07.jpg" width="220" height="200">
+        <div class="immt2">
+            <p style="font-size: 13px; margin-left: 40px;font-style: oblique;font-weight: 700;">Huawei P50
+            <button type="add to cart">Add to cart</button></p>
+            </div>
+    </div>
+    <!--third image in the same div-->
+    <div class="im2">
+        <img src="08.jpg" width="220" height="200">
+        <div class="immt2">
+            <p style="font-size: 13px; margin-left: 40px;font-style: oblique;font-weight: 700;">Huawei P50pro
+            <button type="add to cart">Add to cart</button></p>
+            </div>
+    </div>
+
+    </div>
+    <br><br><br><hr><br><br>
+    <!--Making form login in the div id-->
+    <div id="submit">
+        <h2>User login</h2>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="Please type your email!">
+            <br>
+            <button type="submit" style="margin-left: 15%;border-radius: 5px;padding: 10px;">Submit:</button>
+        </form>
+    </div>
+
+    
+    
+</body>
+</html>

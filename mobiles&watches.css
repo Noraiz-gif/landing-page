@@ -1,0 +1,145 @@
+body{
+    margin-left: 95px;
+    margin-right: 95px;
+    background-color:rgba(255, 228, 196, 0.548);
+}
+header{
+    background-color: bisque;
+    box-shadow: 10px 10px 60px rgba(194, 41, 143, 0.623);
+    border: none;
+    border-radius: 5px;
+}
+
+h1{
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+#header-img{
+    display: flex;
+    justify-content: center;
+}
+#header-img img{
+    height: 100px;
+}
+
+nav,ul,li{
+    display: flex;
+    gap: 40%;
+    justify-content:center;
+    font-size: 22px;
+    font-style: oblique;
+    margin-top: -2px;
+}
+li,a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(23, 109, 112);
+    font-weight: 700;
+}
+
+#video{
+    width: 400px;
+    height: 350px;
+    background-color: darkgray;
+    margin-left: 35%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px salmon;
+    border: none;
+}
+
+.el{
+    display: flex;
+  
+}
+.el img{
+    border-radius: 10px;
+}
+
+hr{
+    border: 1px solid rgba(243, 11, 11, 0.74);
+}
+
+h2{
+    font-style: italic;
+    color: brown;
+    text-decoration: underline;
+}
+
+button{
+    border: 1px solid orangered;
+    padding: 5px;
+    font-weight: 700;
+    font-style: italic;
+    background-color: rgb(230, 193, 149);
+}
+.tim{
+    display: flex;
+}
+.im1{
+    flex-basis: 26%;
+}
+
+.im2{
+    flex-basis: 20%;
+    margin-left: 10%;
+}
+
+label{
+    display: block;
+    width: 10%;
+    font-style: italic;
+    font-size: 20px;
+    color: brown;
+}
+input[type="text"],
+input[type="email"]{
+    margin-bottom: 2%;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 1px solid orangered;
+}
+input::placeholder{
+    font-size: 18px;
+    color: rgba(165, 42, 42, 0.541);
+    font-style: italic;
+}
+form{
+    width: auto;
+    margin-left: 35%;
+}
+
+img{
+    mix-blend-mode: multiply;
+}
+
+/* Media quarry for the website to make responsive */
+@media(max-width: 700px){
+nav,ul,li{
+    gap: 30px;
+}
+.el{
+    flex-direction: column;
+}
+.el img{
+    width: 300px;
+    height: 300px;
+}
+.tim{
+    flex-direction: column;
+}
+input::placeholder{
+    font-size: 8px;
+}
+input[type="text"],
+input[type="email"]{
+    width: 70%;
+}
+#video{
+    width: 300px;
+    margin-left: 10%;
+}
+
+}
